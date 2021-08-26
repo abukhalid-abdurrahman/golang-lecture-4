@@ -4,10 +4,12 @@ import (
 	"fmt"
 )
 
-func printName(name) {
-	fmt.Println(name)
+func multi(a int, b int) int {
+	res := a * b
+	return res
 }
 
 func main() {
-	printName("Faridun")
+	multiRes := multi(5, 2)
+	fmt.Println(multiRes)
 }
