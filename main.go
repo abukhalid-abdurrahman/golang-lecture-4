@@ -17,6 +17,8 @@ func multi(a int, b int) int {
 }
 
 func main() {
+	divRes := div(4, 2)
 	multiRes := multi(5, 2)
 	fmt.Println(multiRes)
+	fmt.Println(divRes)
 }
